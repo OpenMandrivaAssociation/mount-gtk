@@ -37,3 +37,10 @@ interface.
 %{_bindir}/%{name}
 %{_datadir}/applications/*.desktop
 
+
+
+%changelog
+* Wed May 30 2012 Matthew Dawkins <mattydaw@mandriva.org> 1.2.0-1
++ Revision: 801202
+- imported package mount-gtk
+

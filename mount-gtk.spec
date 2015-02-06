@@ -1,7 +1,7 @@
 Summary:	Front end for udisks
 Name:		mount-gtk
 Version:	1.2.0
-Release:	1
+Release:	2
 License: 	GPLv2
 Group:  	Graphical desktop/GNOME
 URL:		http://mount-gtk.sourceforge.net/

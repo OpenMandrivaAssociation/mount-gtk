@@ -24,8 +24,7 @@ interface.
 %apply_patches
 
 %build
-export CC=gcc
-export CXX=g++
+export CXXFLAGS="%{optflags} -std=c++11"
 %configure2_5x
 %make
 
@@ -37,11 +36,5 @@ export CXX=g++
 %doc AUTHORS COPYING ChangeLog README BUGS
 %{_bindir}/%{name}
 %{_datadir}/applications/*.desktop
-
-
-
-%changelog
-* Wed May 30 2012 Matthew Dawkins <mattydaw@mandriva.org> 1.2.0-1
-+ Revision: 801202
-- imported package mount-gtk
+%{_mandir}/man1/%{name}.1*
 

@@ -1,19 +1,18 @@
 Summary:	Front end for udisks
 Name:		mount-gtk
-Version:	1.2.0
-Release:	2
+Version:	1.4.3
+Release:	1
 License: 	GPLv2
 Group:  	Graphical desktop/GNOME
 URL:		http://mount-gtk.sourceforge.net/
 Source0:	http://downloads.sourceforge.net/project/%{name}/%{name}/%{version}/%{name}-%{version}.tar.gz
-Patch0:		mount-gtk_format-not-a-string.patch
-Patch1:		mount-gtk-1.2.0_desktop.patch
 
-BuildRequires:	pkgconfig(c++-gtk-utils-3-2.0)
+BuildRequires:	pkgconfig(c++-gtk-utils-3-2.2)
 BuildRequires:	pkgconfig(glib-2.0)
 BuildRequires:	pkgconfig(libnotify)
+BuildRequires:	pkgconfig(udisks2)
 
-Requires:	udisks
+Requires:	udisks2
 
 %description
 The program is a front end to udisks and mount. It provides a means of 

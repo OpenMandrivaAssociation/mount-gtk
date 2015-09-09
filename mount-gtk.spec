@@ -24,6 +24,8 @@ interface.
 %apply_patches
 
 %build
+export CC=gcc
+export CXX=g++
 %configure2_5x
 %make
 

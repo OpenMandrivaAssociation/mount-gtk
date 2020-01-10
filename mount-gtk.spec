@@ -21,7 +21,7 @@ interface.
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 
 %build
 export CXXFLAGS="%{optflags} -std=c++11"

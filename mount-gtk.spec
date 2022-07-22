@@ -1,6 +1,6 @@
 Summary:	Front end for udisks
 Name:		mount-gtk
-Version:	1.4.3
+Version:	1.4.5.1
 Release:	1
 License: 	GPLv2
 Group:  	Graphical desktop/GNOME

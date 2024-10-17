@@ -4,7 +4,7 @@ Version:	1.4.5.1
 Release:	1
 License: 	GPLv2
 Group:  	Graphical desktop/GNOME
-URL:		http://mount-gtk.sourceforge.net/
+URL:		https://mount-gtk.sourceforge.net/
 Source0:	http://downloads.sourceforge.net/project/%{name}/%{name}/%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:	pkgconfig(c++-gtk-utils-3-2.2)
